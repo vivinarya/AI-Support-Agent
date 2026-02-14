@@ -4,6 +4,13 @@
 
 This project implements a resilient AI agent designed to handle customer support queries with high reliability. It features an intelligent retry mechanism, self-correction capabilities for search queries, and structured logging for observability. The system now includes a **interactive Streamlit Dashboard** for real-time testing and knowledge base management.
 
+![Agent Dashboard](screenshots/dashboard.png)
+*The agent's interactive dashboard showing real-time chat and vector visualization.*
+
+![RAG Process](screenshots/rag_process.png)
+*Visual representation of the Retrieval-Augmented Generation process.*
+
+
 ## Key Features
 
 - **Intelligent Keyword Extraction**: analyzing user input to identify core search terms.

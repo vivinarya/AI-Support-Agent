@@ -12,7 +12,6 @@ def load_database():
 
 def search_knowledge_base(query):
     data = load_database()
-    # Simple fuzzy search
     for key, value in data.items():
         if key in query.lower():
             return value

@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+slowapi
+python-dotenv
+groq
+pydantic
+chromadb
+sentence-transformers
+pypdf
